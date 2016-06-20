@@ -170,6 +170,7 @@ public class CorrespondenceAcquisition : MonoBehaviour
         if (_imagePositions.Count != _objectPositions.Count)
             return;
 
+        if (_calibrator == null) _calibrator = new Calibration(_mainCamera);
         _reprojectionError = _calibrator.calibrateFromCorrespondences(_imagePositions, _objectPositions);
     }
 

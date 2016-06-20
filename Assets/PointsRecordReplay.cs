@@ -11,17 +11,26 @@ using UnityEditor;
 public class PointsRecordReplay : MonoBehaviour {
     public CorrespondenceAcquisition pointsHolder;
 
+    public bool autoLoad = false;
+    public string pathToFile;
+
+    void OnEnable() {
+        if (autoLoad) {
+            var recording = Recording.LoadFromFile(pathToFile);
+            pointsHolder.ReplayRecordedPoints(recording.worldPointsV3, recording.ImagePointsV3((double)Screen.width, (double)Screen.height));
+        }
+    }
 	void Start () {
 	}
 	
 	void Update () {
-        if (Input.GetKeyDown(KeyCode.R))
+        if (Input.GetKeyDown(KeyCode.S))
         {
             RecordCurrentPoints();
             Debug.Log("Recording complete");
         }
 
-        if (Input.GetKeyDown(KeyCode.P))
+        if (Input.GetKeyDown(KeyCode.L))
         {
             LoadSavedPoints();
             Debug.Log("Loading complete");
