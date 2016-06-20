@@ -1,0 +1,62 @@
+Mono path[0] = 'C:/Dev/Unity/ProjectionMappingCalibration/Block9_2016_Data/Managed'
+Mono path[1] = 'C:/Dev/Unity/ProjectionMappingCalibration/Block9_2016_Data/Mono'
+Mono config path = 'C:/Dev/Unity/ProjectionMappingCalibration/Block9_2016_Data/Mono/etc'
+PlayerConnection initialized from C:/Dev/Unity/ProjectionMappingCalibration/Block9_2016_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55033
+Multi-casting "[IP] 192.168.0.10 [Port] 55033 [Flags] 2 [Guid] 4208243706 [EditorId] 3968182571 [Version] 1048832 [Id] WindowsPlayer(harveyWIN) [Debug] 0" to [225.0.0.222:54997]...
+PlayerConnection already initialized - listening to [192.168.0.10:55033]
+Initialize engine version: 5.3.5f1 (960ebf59018a)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GT 750M    (ID=0xfe9)
+    Vendor:   NVIDIA
+    VRAM:     1986 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Dev\Unity\ProjectionMappingCalibration\Block9_2016_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Dev\Unity\ProjectionMappingCalibration\Block9_2016_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Dev\Unity\ProjectionMappingCalibration\Block9_2016_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Dev\Unity\ProjectionMappingCalibration\Block9_2016_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Dev\Unity\ProjectionMappingCalibration\Block9_2016_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Dev\Unity\ProjectionMappingCalibration\Block9_2016_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Dev\Unity\ProjectionMappingCalibration\Block9_2016_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Dev\Unity\ProjectionMappingCalibration\Block9_2016_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Dev\Unity\ProjectionMappingCalibration\Block9_2016_Data\Managed\Emgu.CV.dll (this message is harmless)
+Loading C:\Dev\Unity\ProjectionMappingCalibration\Block9_2016_Data\Managed\Emgu.CV.dll into Unity Child Domain
+Platform assembly: C:\Dev\Unity\ProjectionMappingCalibration\Block9_2016_Data\Managed\Emgu.Util.dll (this message is harmless)
+Loading C:\Dev\Unity\ProjectionMappingCalibration\Block9_2016_Data\Managed\Emgu.Util.dll into Unity Child Domain
+Platform assembly: C:\Dev\Unity\ProjectionMappingCalibration\Block9_2016_Data\Managed\System.Drawing.dll (this message is harmless)
+Loading C:\Dev\Unity\ProjectionMappingCalibration\Block9_2016_Data\Managed\System.Drawing.dll into Unity Child Domain
+- Completed reload, in  0.193 seconds
+Platform assembly: C:\Dev\Unity\ProjectionMappingCalibration\Block9_2016_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Dev\Unity\ProjectionMappingCalibration\Block9_2016_Data\Managed\System.dll (this message is harmless)
+desktop: 2880x1800 60Hz; virtual: 2880x1800 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.874683 ms
+WARNING: Shader Unsupported: 'Lines/Colored Blended' - Pass '' has no vertex shader
+WARNING: Shader Unsupported: 'Lines/Colored Blended' - Setting to default shader.
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 1a60 -> priority: 1 
+  Thread -> id: 1280 -> priority: 1 
+Platform assembly: C:\Dev\Unity\ProjectionMappingCalibration\Block9_2016_Data\Managed\System.Xml.dll (this message is harmless)
+Fallback handler could not load library C:/Dev/Unity/ProjectionMappingCalibration/Block9_2016_Data/Mono/libc
+Fallback handler could not load library C:/Dev/Unity/ProjectionMappingCalibration/Block9_2016_Data/Mono/.\libc
+Fallback handler could not load library C:/Dev/Unity/ProjectionMappingCalibration/Block9_2016_Data/Mono/libc
+Fallback handler could not load library C:/Dev/Unity/ProjectionMappingCalibration/Block9_2016_Data/Mono/c
+Fallback handler could not load library C:/Dev/Unity/ProjectionMappingCalibration/Block9_2016_Data/Mono/.\c
+Fallback handler could not load library C:/Dev/Unity/ProjectionMappingCalibration/Block9_2016_Data/Mono/c
+Fallback handler could not load library C:/Dev/Unity/ProjectionMappingCalibration/Block9_2016_Data/Mono/libc
+Fallback handler could not load library C:/Dev/Unity/ProjectionMappingCalibration/Block9_2016_Data/Mono/.\libc
+Fallback handler could not load library C:/Dev/Unity/ProjectionMappingCalibration/Block9_2016_Data/Mono/libc
+Platform assembly: C:\Dev\Unity\ProjectionMappingCalibration\Block9_2016_Data\Managed\System.Configuration.dll (this message is harmless)
+Recording complete
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+PointsRecordReplay:Update() (at C:\Dev\Unity\ProjectionMappingCalibration\Assets\ProjectionMappingCalibration\Scripts\PointsRecordReplay.cs:30)
+ 
+(Filename: C:/Dev/Unity/ProjectionMappingCalibration/Assets/ProjectionMappingCalibration/Scripts/PointsRecordReplay.cs Line: 30)
+
